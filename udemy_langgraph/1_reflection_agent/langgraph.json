@@ -1,0 +1,8 @@
+{
+  "dependencies": ["./requirements.txt"],
+  "graphs": {
+    "reflection_agent": "./main.py:graph"
+  },
+  "env": "./.env",
+  "python_version": "3.11"
+}
