@@ -1,5 +1,6 @@
 Git
-ghwp_dWg3nhuiQNQlYLf4puifUQ8PLXFAv20sx3w0
+macos: ghwp_dWg3nhuiQNQlYLf4puifUQ8PLXFAv20sx3w0
+ubuntu: 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
 
 SANF
 @TudBq8aviW6nb9
