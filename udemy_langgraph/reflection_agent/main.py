@@ -4,7 +4,7 @@ from typing import List, Sequence
 from langchain_core.messages import BaseMessage, HumanMessage
 from langgraph.graph import END, MessageGraph
 
-from chains import reflection_chain, generation_chain
+from reflection_agent.chains import reflection_chain, generation_chain
 
 load_dotenv()
 
@@ -40,7 +40,7 @@ builder.add_edge(REFLECT, GENERATE)
 graph = builder.compile()
 graph.get_graph(xray=1).draw_mermaid_png(output_file_path="graph.png")
 
-if "__name__" == "__main__":
+def main():
     inputs = HumanMessage(
         content="""Make this tweet better:
         @LangChainAI
@@ -49,4 +49,7 @@ if "__name__" == "__main__":
         After a long wait, it's  here- making the implementation of agents across different models with function calling - super easy.
         Made a video covering their newest blog post"""
     )
-    response = graph.invoke(inputs)
+    response = graph.invoke(inputs)    
+
+if "__name__" == "__main__":
+    main()

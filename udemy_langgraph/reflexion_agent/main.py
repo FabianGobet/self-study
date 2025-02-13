@@ -2,8 +2,8 @@ from dotenv import load_dotenv
 from typing import List
 from langchain_core.messages import BaseMessage, ToolMessage
 from langgraph.graph import END, MessageGraph
-from tool_executor import execute_tools
-from chains import revision_chain, first_responder
+from reflexion_agent.tool_executor import execute_tools
+from reflexion_agent.chains import revision_chain, first_responder
 
 load_dotenv()
 
@@ -31,7 +31,10 @@ builder.set_entry_point("draft")
 graph = builder.compile()
 graph.get_graph(xray=1).draw_mermaid_png(output_file_path="graph.png")
 
-if __name__ == "__main__":
+def main() :
     print("reflexion agent")
-
     res = graph.invoke()
+    print(res)
+
+if __name__ == "__main__":
+    main()

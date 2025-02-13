@@ -13,8 +13,19 @@ dependencies = [
     "python-dotenv>=1.0.1",
 ]
 
+[project.scripts]
+reflection = "reflection_agent.main:main"
+reflexion = "reflexion_agent.main:main"
+
+[tool.uv]
+package = true
+
 [tool.uv.workspace]
-members = [
-    "reflection_agent",
-    "reflexion_agent",
-]
+members = ["reflection_agent","reflexion_agent"]
+
+[tool.setuptools]
+packages = ["reflection_agent", "reflexion_agent"]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"

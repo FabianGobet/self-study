@@ -6,8 +6,8 @@ from langchain_community.tools.tavily_search import TavilySearchResults
 from langchain_community.utilities.tavily_search import TavilySearchAPIWrapper
 from langchain_core.messages import BaseMessage, HumanMessage, ToolMessage, AIMessage
 from langgraph.prebuilt import ToolExecutor, ToolInvocation
-from chains import parser
-from schemas import AnswerQuestion, Reflection
+from reflexion_agent.chains import parser
+from reflexion_agent.schemas import AnswerQuestion, Reflection
 
 load_dotenv()
 
