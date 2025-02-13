@@ -17,11 +17,13 @@ builder.add_node("revise", revision_chain)
 builder.add_edge("draft", "execute_tools")
 builder.add_edge("execute_tools", "revise")
 
+
 def event_loop(state: List[BaseMessage]) -> List[BaseMessage]:
     count_tools_visits = sum(isinstance(item, ToolMessage) for item in state)
     if count_tools_visits > MAX_ITERATIONS:
         return END
     return "execute_tools"
+
 
 builder.add_conditional_edges("revise", event_loop)
 builder.set_entry_point("draft")
