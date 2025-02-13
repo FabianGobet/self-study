@@ -7,4 +7,7 @@ requires-python = ">=3.10, <3.11"
 dependencies = []
 
 [tool.uv.workspace]
-members = ["1_reflection_agent", "2_reflexion_agent"]
+members = [
+    "reflection_agent",
+    "reflexion_agent",
+]

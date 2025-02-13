@@ -3,51 +3,9 @@ requires-python = "==3.10.*"
 
 [manifest]
 members = [
-    "1-reflection-agent",
-    "2-reflexion-agent",
+    "reflection-agent",
+    "reflexion-agent",
     "udemy-langgraph",
-]
-
-[[package]]
-name = "1-reflection-agent"
-version = "0.1.0"
-source = { virtual = "1_reflection_agent" }
-dependencies = [
-    { name = "langchain-core" },
-    { name = "langchain-openai" },
-    { name = "langgraph" },
-    { name = "python-dotenv" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "langchain-core", specifier = ">=0.3.34" },
-    { name = "langchain-openai", specifier = ">=0.3.4" },
-    { name = "langgraph", specifier = ">=0.2.70" },
-    { name = "python-dotenv", specifier = ">=1.0.1" },
-]
-
-[[package]]
-name = "2-reflexion-agent"
-version = "0.1.0"
-source = { virtual = "2_reflexion_agent" }
-dependencies = [
-    { name = "langchain-community" },
-    { name = "langchain-core" },
-    { name = "langchain-openai" },
-    { name = "langgraph" },
-    { name = "pydantic" },
-    { name = "python-dotenv" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "langchain-community", specifier = ">=0.3.17" },
-    { name = "langchain-core", specifier = ">=0.3.34" },
-    { name = "langchain-openai", specifier = ">=0.3.4" },
-    { name = "langgraph", specifier = ">=0.2.70" },
-    { name = "pydantic", specifier = ">=2.10.6" },
-    { name = "python-dotenv", specifier = ">=1.0.1" },
 ]
 
 [[package]]
@@ -774,6 +732,48 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/5c/20/8347dcabd41ef3a3cdc4f7b7a2aff3d06598c8779faa189cdbf878b626a4/PyYAML-6.0.2-cp310-cp310-musllinux_1_1_x86_64.whl", hash = "sha256:23502f431948090f597378482b4812b0caae32c22213aecf3b55325e049a6c68", size = 720527 },
     { url = "https://files.pythonhosted.org/packages/be/aa/5afe99233fb360d0ff37377145a949ae258aaab831bde4792b32650a4378/PyYAML-6.0.2-cp310-cp310-win32.whl", hash = "sha256:2e99c6826ffa974fe6e27cdb5ed0021786b03fc98e5ee3c5bfe1fd5015f42b99", size = 144052 },
     { url = "https://files.pythonhosted.org/packages/b5/84/0fa4b06f6d6c958d207620fc60005e241ecedceee58931bb20138e1e5776/PyYAML-6.0.2-cp310-cp310-win_amd64.whl", hash = "sha256:a4d3091415f010369ae4ed1fc6b79def9416358877534caf6a0fdd2146c87a3e", size = 161774 },
+]
+
+[[package]]
+name = "reflection-agent"
+version = "0.1.0"
+source = { virtual = "packages/reflection_agent" }
+dependencies = [
+    { name = "langchain-core" },
+    { name = "langchain-openai" },
+    { name = "langgraph" },
+    { name = "python-dotenv" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "langchain-core", specifier = ">=0.3.34" },
+    { name = "langchain-openai", specifier = ">=0.3.4" },
+    { name = "langgraph", specifier = ">=0.2.70" },
+    { name = "python-dotenv", specifier = ">=1.0.1" },
+]
+
+[[package]]
+name = "reflexion-agent"
+version = "0.1.0"
+source = { virtual = "packages/reflexion_agent" }
+dependencies = [
+    { name = "langchain-community" },
+    { name = "langchain-core" },
+    { name = "langchain-openai" },
+    { name = "langgraph" },
+    { name = "pydantic" },
+    { name = "python-dotenv" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "langchain-community", specifier = ">=0.3.17" },
+    { name = "langchain-core", specifier = ">=0.3.34" },
+    { name = "langchain-openai", specifier = ">=0.3.4" },
+    { name = "langgraph", specifier = ">=0.2.70" },
+    { name = "pydantic", specifier = ">=2.10.6" },
+    { name = "python-dotenv", specifier = ">=1.0.1" },
 ]
 
 [[package]]
