@@ -1,0 +1,33 @@
+[project]
+name = "my_project"  
+version = "0.1.0"
+
+description = ""
+authors = [{ name = "Fabian Gobet", email = "fabian.mas.slax@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.10,<3.12"
+dependencies = [] 
+
+[tool.poetry]
+packages = [{include = "main", from = "src"}] 
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.1.8"
+pyright = "^1.1.331"
+
+[tool.pyright]
+# https://github.com/microsoft/pyright/blob/main/docs/configuration.md
+useLibraryCodeForTypes = true
+exclude = [".cache", "venv", "node_modules", "build", "dist", "__pycache__"]
+
+[tool.ruff]
+# https://beta.ruff.rs/docs/configuration/
+select = ['E', 'W', 'F', 'I', 'B', 'C4', 'ARG', 'SIM']
+ignore = ['W291', 'W292', 'W293']
+
+[tool.uv.workspace]
+members = ["find_insights"]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
