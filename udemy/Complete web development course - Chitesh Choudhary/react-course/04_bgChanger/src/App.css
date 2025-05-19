@@ -1,0 +1,18 @@
+.main-container {
+  @apply w-full h-screen duration-200 bg-black;
+}
+
+.controls-wrapper {
+  @apply fixed flex flex-wrap justify-center bottom-12 inset-x-0;
+}
+
+.button-container {
+  @apply flex flex-wrap justify-center gap-3 shadow-lg bg-white px-3 py-2 rounded-3xl;
+}
+
+.color-button-class {
+  @apply text-white font-bold py-2 px-4 rounded border-2 border-solid;
+}
+.color-button-class:hover {
+  @apply border-2 border-solid border-black;
+}

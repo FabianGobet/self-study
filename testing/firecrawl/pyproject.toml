@@ -1,0 +1,22 @@
+[project]
+name = "firecrawl"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "FabianGobet", email = "fabian.mas.slax@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "firecrawl-py>=1.15.0",
+    "ipykernel>=6.29.5",
+    "python-dotenv>=1.0.1",
+    "reportlab>=4.3.1",
+]
+
+[project.scripts]
+firecrawl = "firecrawl:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

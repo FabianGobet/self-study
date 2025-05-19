@@ -1,0 +1,20 @@
+write_task:
+  description: >
+    Write acreative text about the topic '{topic}'.
+    Make sure to include engaging content that educates and entertains.
+  expected_output: >
+    A small text that captivates readers and showcases your unique voice.
+    The text should be under 1000 words and should be free of grammatical errors.
+  agent: writer
+
+analyst_task:
+  description: >
+    Analyze the creativity of a text on the topic '{topic}'.
+    Create a detailed report that breaks down the creative elements of the text.
+
+    ignore the following:
+    {new}
+  expected_output: >
+    A detailed report that highlights the creative potential of the text.
+    The report should be well-organized and easy to understand.
+  agent: analyst

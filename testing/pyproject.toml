@@ -1,0 +1,12 @@
+[project]
+name = "testing"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10,<3.12"
+authors = [{ name = "FabianGobet", email = "fabian.mas.slax@gmail.com" }]
+
+dependencies = []
+
+[tool.uv.workspace]
+members = ["simple_hierarchical_crew", "interpolation_crew", "llm_tests", "deepseek_solo", "firecrawl"]

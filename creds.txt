@@ -1,0 +1,73 @@
+Git
+ghwp_dWg3nhuiQNQlYLf4puifUQ8PLXFAv20sx3w0
+
+Cursor gist
+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
+
+Groq (find-insights-dev)
+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
+
+Openai
+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
+
+Langsmith
+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
+
+Deepseek
+sk-d0aad676c8fa4bec970d169fb14d1b98
+
+Openrouter
+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
+
+Perplexity
+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
+
+Anthropic
+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
+
+XAI
+xai-R9khNGZBa4rl5brOyoFCaD9juMtNMH4iugq2wIFzQVKrb7ifNdfABxJxgN71NODPtbMMteaJk8mEZxRD
+
+Openrouter gemini-vscode
+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
+
+Langtrace
+a5f8145319cd50431ea2be26f69ad129c6e317531fe3bae44ce5b10d370dfb84
+
+Google AI studio
+AIzaSyBBN5QPGJF6fT6oJAs71bfH_f6DoJpvgwY
+
+Linkedin access token
+AQV2ptPQd0nhTdiS049XOXDjfw_L28W0Nc2dsLQnHSP5Q1_7TIdWxZPSWI4-uqmOeGoTe_lIwPFtqjC61xT4D-zD4pjV7DPKI2xoS3AypmnRPvwH3TBnc5jhoJ2DO6Xfv00x9wvQ7oVJhxUNKXMAh6OVDKQTb6QFSA3R_MrcFSxwtoEoF2tx1-tD6S81CuX7AMCEj6I3FOmKv9wzO1D1PZ-BsqOW5cNR-vGtLbsU4JFVXlo6vm61m4dFXi0lt_WydeyI3B2vn1hQW7We0O8yHBvv6xJAJfjOxK29T2ziiGnt-4xt0cqhL0dzaovPcisvsUMf0qXjZMZiC_5K8ViNGbkPWIgFtw
+
+Github recovery codes
+3549c-01249
+f6a42-37443
+1c92c-827a2
+a6607-14c86
+c023a-196b7
+180b8-29770
+2a824-a4c99
+5f3f3-f70c1
+ddf24-b9af2
+c2a22-2be35
+0ee3a-de538
+c5d20-ef1ad
+df908-cb47a
+04a5b-9f585
+01442-c6b2c
+c6b85-0ed62
+
+--------------------------------------------------
+
+ssh -p 555 frenzoid@lvlup-wm.com
+clock.exe1
+
+SANF
+@TudBq8aviW6nb9
+
+Gmail
+pargy@kells<3
+Kells@1997
+KellsNoTrabalho1!
+Naoseiinventar1

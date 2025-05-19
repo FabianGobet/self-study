@@ -1,0 +1,22 @@
+[project]
+name = "llm-tests"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [{ name = "FabianGobet", email = "fabian.mas.slax@gmail.com" }]
+requires-python = ">=3.10"
+dependencies = [
+    "crewai>=0.108.0",
+    "ipykernel>=6.29.5",
+    "langchain-groq>=0.2.5",
+    "langtrace-python-sdk>=3.8.7",
+    "python-dotenv>=1.0.1",
+    "tavily-python>=0.5.1",
+]
+
+[project.scripts]
+test_singles = "llm_tests.test_singles:test_singles"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
